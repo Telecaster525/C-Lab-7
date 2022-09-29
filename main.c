@@ -27,7 +27,7 @@ int main(){
     union Modem o;
     printf("Enter the number in HEX: ");
     scanf("%x", &o.value);
-    printf("DSL: %s || PPP: %s || Link: %s \n",
+    printf("DSL: %s /// PPP: %s /// Link: %s \n",
            o.DSL ? "ON" : "OFF",
            o.PPP ? "ON" : "OFF",
            o.Link ? "ON" : "OFF");
